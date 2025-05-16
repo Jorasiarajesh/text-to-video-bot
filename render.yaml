@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: text-to-video-bot
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: python bot.py
+    envVars:
+      - key: BOT_TOKEN
+        value: आपके_Telegram_Bot_Token_की_जगह
